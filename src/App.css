@@ -1,0 +1,51 @@
+.hero {
+  padding: 32px;
+  margin-bottom: 24px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #2c2f73 0%, #4a61af 100%);
+  color: white;
+}
+
+.summaryCards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.summaryCard {
+  padding: 20px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+  min-height: 100px;
+}
+
+.summaryValue {
+  margin-top: 12px;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.panel {
+  padding: 28px;
+  border-radius: 24px;
+  border: 1px solid rgba(145, 158, 171, 0.16);
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.filterRow {
+  gap: 12px;
+  align-items: center;
+}
+
+.noResults {
+  padding: 32px;
+  text-align: center;
+}
